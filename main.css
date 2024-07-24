@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    background-color: #272c3d;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.header__link{
+    color: #ffffff;
+    font-family: "Quantico";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: #FF9C28;
+}
+.header__input{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+}
+.laguage{
+    border-radius: 5px;
+    background-color: #00000080;
+    width: 130px;
+    height: 30px;
+    color: #ffffffcc;
+    font-family: "Quantico";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+}
+.hero{
+    padding-bottom: 100px;
+    background-image: url("./images/Bg.png");
+    height: 575px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-position: center;
+}
+.hero__textbox{
+    text-align: center;
+    width: 204px;
+    margin: 0 auto;
+}
+.hero__title{
+    color: #ffffff;
+    font-family: "Quantico";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.hero__text{
+    color: #ffffffcc;
+    font-family: "Quantico";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.swiper {
+    width: 900px;
+    height: 300px;
+}
+.swiper__img{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    background-color: #272c3d;
+}
+.mirage__wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #1b1e27;
+    padding: 30px, 30px, 188, 30;
+}
+.intro__text{
+    width: 323px;
+    color: #bfbfbf;
+    font-size: "Quantico";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.mirage__box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+.intro__title{
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: #272c3d;
+    padding: 100px 0;
+
+}
+.footer__wraper{
+}
